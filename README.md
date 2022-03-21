@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @battulga-l
 - 👀 I’m interested in back-end microservice development
-- 🌱 I’m currently learning JavaEE, Rust language
+- 🌱 I’m currently learning JavaEE, Rust lang
 - 📫 How to reach me ... <!--https://battulga-l.github.io-->
 <!---- 💞️ I’m looking to collaborate on Full Stack and Middleware development solutions--->
 
