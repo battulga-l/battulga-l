@@ -1,0 +1,50 @@
+{
+  "name": "edu-sphere",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloud Solutions for Educational Institutions",
+  "keywords": [
+    "education",
+    "lms",
+    "sms",
+    "school-management",
+    "learning-management",
+    "edtech",
+    "mongolia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/battulga-l/edu-sphere.git"
+  },
+  "license": "MIT",
+  "author": "Battulga",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "db:generate": "turbo run db:generate",
+    "db:push": "turbo run db:push",
+    "db:migrate": "turbo run db:migrate",
+    "db:studio": "turbo run db:studio"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "turbo": "^1.11.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
